@@ -1,0 +1,21 @@
+{
+  "name": "comp3104",
+  "version": "1.0.0",
+  "description": "- O'Neal Jean \r - George Brown Polytechnic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Warning: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OJean2468/COMP3104.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/OJean2468/COMP3104/issues"
+  },
+  "homepage": "https://github.com/OJean2468/COMP3104#readme"
+}
