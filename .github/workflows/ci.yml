@@ -32,7 +32,11 @@ jobs:
           node-version: '22' #Specieis the Node Version 
           cache: 'npm' #Automatically caches npm dependencies
 
-
-      #Step Installing the dependences
+      #Step 3: Instal dependencies 
       - name: Install dependencies
-      - run: npm install
+        run: npm Install
+
+        
+      #Step 4: Run Tests
+      - name: Run Tests
+        run: npm Tests
