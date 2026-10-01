@@ -25,18 +25,17 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
 
-      #Step 2: Set up the Node.js environment 
+      # Step 2: Set up the Node.js environment
       - name: Setup Node.js
-      - uses: action/setup-node@v4
+        uses: actions/setup-node@v4
         with:
-          node-version: '22' #Specieis the Node Version 
-          cache: 'npm' #Automatically caches npm dependencies
+          node-version: '22' # Specify your required Node version
+          cache: 'npm'       # Automatically caches npm dependencies
 
-      #Step 3: Instal dependencies 
+      # Step 3: Install dependencies
       - name: Install dependencies
-        run: npm Install
+        run: npm install
 
-        
-      #Step 4: Run Tests
-      - name: Run Tests
-        run: npm Tests
+      # Step 4: Run tests
+      - name: Run tests
+        run: npm test
